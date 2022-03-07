@@ -131,3 +131,104 @@ nav ul {
     margin: auto;
     transition: 0.5s;   
 }
+
+nav-icons a i:hover::after {
+    width: 100%;
+}
+
+/**** ***** Nav Header sections ends mob ver *****/
+
+@media(min-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 308px;
+        background-color: #E7AD99;
+    }
+    
+    nav {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .upper a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .nav-list .item {
+        display: inline-block;
+    }
+
+    .logo img{
+        width: 284.5px;
+        margin: 12px;
+        margin-left: 72px;
+        margin-right: 127px;
+    }
+
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 53px;
+    }
+
+    .nav-links ul li a {
+        color: #41160D;
+        text-decoration: none;
+        font-size: 56px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .nav-links ul li::after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: #fff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    } 
+
+    .nav-links ul li:hover::after {
+        width: 100%;
+    }
+
+    .nav-icons {
+        display: flex;
+        margin-left: 75px;
+        margin-right: 72px;
+    }
+
+    .nav-icons a i {
+        color:#fff;
+        font-size: 49px;
+        padding: 14.5px;
+    }
+
+    .nav-icons a i::after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: #41160D;
+        display: block;
+        margin: auto;
+        transition: 0.5s;   
+    }
+
+    .nav-icons a i:hover::after {
+        width: 100%;
+    }
+}
+
+
