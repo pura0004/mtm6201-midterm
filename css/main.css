@@ -519,3 +519,70 @@ p {
     padding-bottom: 50px;
 }
 
+.about-col {
+    flex-basis: 48%;
+    padding: 20px;
+}
+
+.about-col img {
+    width:100%;
+}
+
+.about-col h2 {
+    padding: 0;
+}
+
+.about-col p {
+    padding: 5px 0 5px;
+}
+
+.values {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.values h2{
+    text-align: center;
+}
+
+
+
+.values-col {
+    flex-basis: 31%;
+    background: #E7AD99;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.values-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+}
+
+.values-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 760px){
+    .sub-header h1 {
+        font-size: 60px;
+        top: 70%;
+        left: 70%;
+        text-align: center;
+        transform: translate(-70%,-70%);
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+}
+
+
+
+/*** css for contact  page end***/
+
