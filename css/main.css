@@ -363,3 +363,61 @@ h2 {
 }
 
 
+/***** Mood css ends *****/
+
+/***** category  css start *****/
+
+.categories {
+    width: 90.72%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.categories h2 {
+    padding: 0;
+    margin-bottom: 14px;
+}
+
+/* flexblox*/
+.cat-col {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    gap: 35px;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.cat-col img{
+    width: 100%;
+}
+
+
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(231,173,153,0.4);
+}
+
+.cat-col h3 {
+    width: 100%;
+    font-weight: 600;
+    color: #41160D;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+    top: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+/***** Categories css ends *****/
+
