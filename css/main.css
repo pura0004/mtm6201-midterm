@@ -59,7 +59,7 @@ table {
 }
 
 
-/**** **************  nav mobile section *****/
+/**** *****  nav mobile section *****/
 
 .container {
     width: 85%;
@@ -69,4 +69,65 @@ table {
 
 header {
     background: #D7FCD4;
+}
+
+
+
+nav ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-links ul li a {
+    color: #F5F5F5;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} 
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/**** *****  css logo *****/
+
+.logo img {
+    width: 150px;
+    margin: auto;
+}
+
+.nav-icons {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.nav-icons a i {
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.nav-icons a i::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #41160D;
+    display: block;
+    margin: auto;
+    transition: 0.5s;   
 }
