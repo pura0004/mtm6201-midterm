@@ -334,4 +334,15 @@ h2 {
 
 /*  mood css starts  */
 
-
+.mood {
+    margin: 100px auto;
+    background-color: white;
+    background-image: url('../images/moodbanner1920x454.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 454px;
+    display: block; 
+    margin-top: 89px;
+    margin-bottom: 35px;
+}
