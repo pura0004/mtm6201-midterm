@@ -50,3 +50,23 @@ table {
 /* --css reset added above -- */
 
 
+/* --css starts here -- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/**** **************  nav mobile section *****/
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+header {
+    background: #D7FCD4;
+}
