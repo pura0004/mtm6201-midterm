@@ -299,3 +299,39 @@ h2 {
     display: block;
 }
 
+.layer-0 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-0:hover {
+    background: rgba(231,173,153,0.4);
+}
+
+.layer-0 h3 {
+    width: 100%;
+    font-weight: 200;
+    color: #41160D;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-0:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/*  mood css starts  */
+
+
