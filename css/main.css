@@ -421,3 +421,63 @@ h2 {
 
 /***** Categories css ends *****/
 
+/*****footeer css add *****/
+
+footer{
+    margin-top: 116px;
+    width: 100%;
+    text-align: center;
+    background-color: #E7AD99;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #41160D;
+}
+
+.footer-row {
+    color:#41160D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    padding-bottom: 68px;
+}
+
+footer p {
+    color:#41160D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+}
+
+/*****footeer css end *****/
+
+@media(max-width: 760px){
+    .banner h1 {
+        font-size: 60px;
+    }
+
+    .mood-content h2 {
+        width: 100%;
+        font-size: 60px;
+        text-align: center;
+        background-color: bisque;
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+    }
+
+    .footer-row {
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+}
+
