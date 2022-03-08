@@ -334,7 +334,7 @@ h2 {
 
 /*  mood css starts  */
 
-.mood {
+.bannertext {
     margin: 100px auto;
     background-color: white;
     background-image: url('../images/moodbanner1920x454.jpg');
@@ -347,11 +347,11 @@ h2 {
     margin-bottom: 35px;
 }
 
-.mood-content{
+.banner-text{
     vertical-align: center;
 }
 
-.mood-content h2{
+.banner-text h2{
     text-align: center;
     position: absolute;
     color: white;
