@@ -777,8 +777,8 @@ p {
   }
   
   .text {
-    color: #463733;
-    font-family: 'helvetica', sans-serif;
+    color: orange;
+    font-family: 'barlow', sans-serif;
     font-weight: 300;
     font-style: bold;
     text-align: center;
