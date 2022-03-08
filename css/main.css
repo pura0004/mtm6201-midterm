@@ -695,10 +695,10 @@ p {
 }
 
 .velas {
-    background: #ffffff;
+    background: white;
     border-radius: 10px;
     position: absolute;
-    top: 228px;
+    top: 218.75rem;
     left: 50%;
     margin-left: -2.4px;
     margin-top: -8.33333333px;
@@ -706,7 +706,7 @@ p {
     height: 35px;
     transform: translateY(-300px);
     backface-visibility: hidden;
-    animation: in 500ms 6s ease-out forwards;
+    animation: in 500ms 3s ease-out forwards;
   }
   .velas:after,
   .velas:before {
