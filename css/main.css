@@ -93,7 +93,7 @@ nav ul {
     content: '';
     width: 0;
     height: 2px;
-    background: #fff;
+    background: white;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -777,13 +777,13 @@ p {
   }
   
   .text {
-    color: #8b6a60;
+    color: #463733;
     font-family: 'helvetica', sans-serif;
     font-weight: 300;
-    font-style:italic;
+    font-style: bold;
     text-align: center;
-    h1 {
-      font-size: 1.4em;
+    h1{
+      font-size: 25px;
     }
-  }  
+}
 
