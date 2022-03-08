@@ -636,7 +636,7 @@ p {
 }
 
 .contact-col{
-    flex-basis: 47%;
+    flex-basis: 40%;
     margin-bottom: 30px;
 }
 
@@ -646,18 +646,37 @@ p {
     margin-bottom: 40px;
 }
 
-.contact-col div .material-icons{
-    font-size: 28px;
-    color: #41160D;
-    margin: 10px;
-    margin-right: 30px;
-}
-
 .contact-col div p{
     padding: 0;
 }
 
 .contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #424E5A;
+    box-sizing: border-box;
+}
+.opening-col{
+    width: 80%;
+    margin: auto;
+}
+
+.opening-col{
+    flex-basis: 40%;
+    margin-bottom: 30px;
+}
+.opening-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.opening-col div p{
+    padding: 0;
+}
+.opening-col input, .opening-col textarea {
     width: 100%;
     padding: 15px;
     margin-top: 8px;
@@ -700,3 +719,4 @@ p {
         transform: translate(-70%,-70%);
     }
 }
+
