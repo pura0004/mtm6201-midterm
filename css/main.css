@@ -694,11 +694,12 @@ p {
     }
 }
 
+/*** cake anime strt***/
 .velas {
-    background: white;
+    background: rgb(196, 139, 139);
     border-radius: 10px;
     position: absolute;
-    top: 218.75rem;
+    top: 237.5rem;
     left: 50%;
     margin-left: -2.4px;
     margin-top: -8.33333333px;
@@ -706,7 +707,7 @@ p {
     height: 35px;
     transform: translateY(-300px);
     backface-visibility: hidden;
-    animation: in 500ms 3s ease-out forwards;
+    animation: in 7s 6s ease-out forwards;
   }
   .velas:after,
   .velas:before {
@@ -777,7 +778,7 @@ p {
   
   .text {
     color: #8b6a60;
-    font-family: 'Lato', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-weight: 300;
     font-style:italic;
     text-align: center;
