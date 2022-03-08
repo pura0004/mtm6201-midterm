@@ -424,12 +424,13 @@ h2 {
 /*****footeer css add *****/
 
 footer{
-    margin-top: 116px;
+    margin-top: 100px;
     width: 100%;
     text-align: center;
     background-color: #E7AD99;
-    padding-top: 41px;
-    padding-bottom: 41px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
 
 footer a {
@@ -447,36 +448,14 @@ footer a {
 footer p {
     color:#41160D;
     font-family: 'Quicksand', sans-serif;
-    font-size: 45px;
+    font-size: 20px;
 }
-.social-footer {
-    padding: 1rem;
-    background: #8a8a8a;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  
-  .social-footer .social-footer-icons li:last-of-type {
-    margin-right: 0;
-  }
-  
-  .social-footer .social-footer-icons .fa {
-    font-size: 1.3rem;
-    color: #fefefe;
-  }
-  
-  .social-footer .social-footer-icons .fa:hover {
-    color: #4a4a4a;
-    transition: color 0.3s ease-in;
-  }
 
+.social{
+    display: block;
+    width: 90%;
+    margin: auto;
+    }
 
 /*****footeer css end *****/
 
