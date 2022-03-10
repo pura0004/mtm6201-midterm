@@ -83,7 +83,7 @@ nav ul {
 .nav-links ul li a {
     color: #F5F5F5;
     display: block;
-    padding: 20px;
+    padding: -20px;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
@@ -334,7 +334,7 @@ h2 {
 /*  mood css starts  */
 
 .bannertext {
-    margin: 100px auto;
+    margin: 100px, auto;
     background-color: white;
     background-image: url('../images/moodbanner1920x454.jpg');
     background-size: cover;
