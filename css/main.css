@@ -63,8 +63,8 @@ table {
 
 .container {
     width: 85%;
-    margin: 0 auto;
-    padding: 14px;
+    margin: auto;
+    padding: auto;
 }
 
 header {
@@ -83,9 +83,9 @@ nav ul {
 .nav-links ul li a {
     color: #F5F5F5;
     display: block;
-    padding: 5px;
+    padding: 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -137,10 +137,16 @@ nav-icons a i:hover::after {
 }
 
 /**** ***** Nav Header sections ends mob ver *****/
+@media screen and (min-width: 760px) {
+    .container  {
+        width: 706px;
+        margin: 0 auto;
+    }    
+}
 
 @media(min-width: 1200px) {
     .container {
-        width: 120%;
+        width: 100%;
         margin: 0;
         padding: 0;
         height: 308px;
@@ -171,22 +177,22 @@ nav-icons a i:hover::after {
     }
 
     .logo img{
-        width: 284.5px;
-        margin: 12px;
-        margin-left: 72px;
-        margin-right: 127px;
+        width: 280px;
+        margin: 25px;
+        margin-left: 300px;
+        margin-right: auto;
     }
 
     .nav-links ul li {
         list-style: none;
         display: inline-block;
-        padding: 8px 53px;
+        padding: 100px 45px;
     }
 
     .nav-links ul li a {
         color: #41160D;
         text-decoration: none;
-        font-size: 56px;
+        font-size: 35px;
         font-family: 'Quicksand', sans-serif;
     }
 
@@ -206,8 +212,8 @@ nav-icons a i:hover::after {
 
     .nav-icons {
         display: flex;
-        margin-left: 75px;
-        margin-right: 72px;
+        margin-left: 150px;
+        margin-right: 400px;
     }
 
     .nav-icons a i {
@@ -238,8 +244,8 @@ nav-icons a i:hover::after {
 
 .banner { 
     min-height: 100vh;
-    width: 100%;
-    height:1080px;
+    width: auto;
+    height: 100px;
     background-image: linear-gradient(rgba(231,173,153,0.4),rgba(231,173,153,0.4)),url('../images/banner1920x1080.jpg');
     background-position: center;
     position: relative;
