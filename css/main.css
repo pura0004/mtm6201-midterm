@@ -242,7 +242,6 @@ nav-icons a i:hover::after {
     height:1080px;
     background-image: linear-gradient(rgba(231,173,153,0.4),rgba(231,173,153,0.4)),url('../images/banner1920x1080.jpg');
     background-position: center;
-    background-size: cover;
     position: relative;
 }
 
