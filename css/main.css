@@ -106,7 +106,7 @@ nav ul {
 /**** *****  css logo *****/
 
 .logo img {
-    width: 150px;
+    width: 100px;
     margin: auto;
 }
 
@@ -264,7 +264,7 @@ nav-icons a i:hover::after {
 
 
 
-/*  Popular css starts  */
+/*  css starts  */
 .row {
     display: flex;
     justify-content: space-between;
