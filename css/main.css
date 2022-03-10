@@ -83,7 +83,7 @@ nav ul {
 .nav-links ul li a {
     color: #F5F5F5;
     display: block;
-    padding: -20px;
+    padding: 5px;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
@@ -140,7 +140,7 @@ nav-icons a i:hover::after {
 
 @media(min-width: 1200px) {
     .container {
-        width: 100%;
+        width: 120%;
         margin: 0;
         padding: 0;
         height: 308px;
