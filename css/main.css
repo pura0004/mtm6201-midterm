@@ -712,11 +712,11 @@ p {
     background: rgb(196, 139, 139);
     border-radius: 10px;
     position: absolute;
-    top: 237.5rem;
+    top: 200rem;
     left: 50%;
     margin-left: -2.4px;
     margin-top: -8.33333333px;
-    width: 5px;
+    width: 10px;
     height: 35px;
     transform: translateY(-300px);
     backface-visibility: hidden;
