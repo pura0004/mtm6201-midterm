@@ -712,7 +712,7 @@ p {
     background: rgb(196, 139, 139);
     border-radius: 10px;
     position: absolute;
-    top: 200rem;
+    top: 202rem;
     left: 50%;
     margin-left: -2.4px;
     margin-top: -8.33333333px;
@@ -793,6 +793,7 @@ p {
     font-weight: 300;
     font-style: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
+
 
