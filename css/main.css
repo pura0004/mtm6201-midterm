@@ -758,8 +758,7 @@ p {
     animation: fuego 0.2s 6.5s infinite;
   }
   
-  /* ============================================== Animation Fire
-  */
+  /*  Animation Fire adds*/
   
   @keyframes fuego {
     0%, 100% {
